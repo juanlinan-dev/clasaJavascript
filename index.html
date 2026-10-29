@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <select  id="transporte">
+        <option value="">Seleccione</option>
+        <option value="">Bus</option>
+        <option value="">Metro</option>
+        <option value="">Bicicleta</option>
+    </select>
+    <p id="respuesta"></p> 
+    <label for="entrega">Tipo de entrega</label>
+    <select  id="entrega">
+        <option value="">Seleccione una opcion</option>
+        <option value="domicilio">Domicilio</option>
+        <option value="tienda">Tienda</option>
+    </select>
+    <p id ="salida"></p> 
+    <label for="selector">Seleccione una opcion:</label>
+    <select name="" id="selector">
+        <option value="">Selccione tipo de urgente</option>
+        <option value="baja">Baja</option>
+        <option value="media">Media</option>
+        <option value="alta">Alta</option>
+    </select>
+    <p id="salida"></p>-->
+    <header>
+        <nav>
+            <a href="#inicio">Descripcion</a>
+            <a href="#numero">Numero Favorito</a>
+            <a href="#pasiones">Pasiones</a>
+            <a href="#footer">Contacto</a>
+
+        </nav>
+    </header>
+    <main>
+        <section id="inicio">
+            <div class="contenedor">
+                <h1>Juan David Liñan Arriola</h1>
+                <hr>
+                <h2>Descripcion</h2>
+                <p>
+  ¡Hola! Soy <strong>Juan David Liñan Arriola</strong>, estudiante de Análisis y Desarrollo de Software (ADSO) en el SENA. Me apasiona la tecnología, la lógica de programación y la creación de soluciones digitales innovadoras que marquen la diferencia en el entorno de desarrollo de software.
+</p>
+            </div>
+        </section>
+        <hr>
+        <section id="numero">
+            <div class="contenedor">
+                <h2>Mi Numero Favorito</h2>
+            <label for="numeroFav">Adivina mi numero Favorito</label>
+            <input id="numeroFav" type="number" min="0" max="100" placeholder="Ingresa un numero de 0 - 100" oninput="if(this.value >100) this.value = 100; if(this.value < 0) this.value = 0;">
+            <p id="salidaN"></p>
+            </div>
+        </section>
+        <hr>
+        <section id="pasiones">
+            <div class="contenedor">
+            <h2>Gustos</h2>
+
+            <label for="selector">Mis Gustos:</label>
+
+            <select name="" id="selector">
+
+                <option value="">Mis tres Pasiones</option>
+                <option value="futbol">futbol</option>
+                <option value="musica">Musica</option>
+                <option value="prog">Programar</option>
+
+            </select>
+
+            <p id="salidaGustos" ></p>
+
+            <img src="img/images.jpg" alt="" id ="img">
+
+            <button id="boton">Mensaje</button>
+            </div>
+
+        </section>
+    </main>
+    <hr>
+    <footer id="footer">
+        <h2>Mi Contacto</h2>
+        <div id="logos">
+        <a href="https://www.facebook.com/"><img src="img/face.webp" alt="" ></a>
+        <a href="https://www.instagram.com/"><img src="img/Ig.png" alt="" ></a>
+        <a href="https://www.whatsapp.com/"><img src="img/wpp.png" alt="" ></a>
+        </div>
+
+
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

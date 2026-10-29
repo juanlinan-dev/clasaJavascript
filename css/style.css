@@ -1,0 +1,125 @@
+/* *{
+    background-color: azure;
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+select {
+  appearance: none;
+  -webkit-appearance: none; 
+  -moz-appearance: none;
+  cursor: pointer;
+  padding-right: 30px;
+  background-image: url('flecha-personalizada.svg');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+
+select:hover {
+  border-color: #5babfa;
+}
+
+select:focus-visible {
+  outline: 2px solid #5aff8b;
+  outline-offset: 2px;
+}
+
+select:active {
+  background-color: #f0f0f0;
+} */
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #0F172A;
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
+   
+
+}
+nav{
+    display:inline-flex;
+    align-items: center;
+    text-align: center;
+   
+}
+ nav a{
+    text-decoration: none;
+    color: beige;
+    padding: 20px;
+}
+a:hover{
+    color: #5785f1;
+    border: 1px solid #5785f1 ;
+    transition: transform 0.2s ease, color 0.2s ease;
+    transform: translatey(-3px)
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: beige;
+}
+hr{
+    height: 2px;
+    background-color: #5785f1;
+}
+h1,h2 {
+    padding: 30px;
+    text-align: center;
+    color: #0F172A;
+}
+input{
+    width: 200px;
+}
+.contenedor{
+    text-align: center;
+}
+p{
+    letter-spacing: 1px;
+    line-height: 2rem;
+    text-align: justify;
+    padding: 20px;
+}
+img{
+    padding: 20px;
+}
+button{
+    display:grid;
+    margin: auto;
+    padding:20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #0F172A;
+    color: aliceblue;
+    width: 200px;
+    font-size: 20px;
+}
+button:hover{
+    color: #5785f1;
+    border: 1px solid ;
+    transition: transform 0.2s ease, color 0.2s ease;
+    transform: translatey(-3px)
+}
+#salidaGustos{
+    text-align: center;
+}
+footer{
+    background-color: black;
+    height: 200px;
+}
+footer h2{
+    color: aliceblue;
+}
+footer img{
+    width: 50px;
+    height: 50px;
+}
+#logos {
+    display: flex;
+    justify-content:center; 
+      
+    width: 100%;                 
+}
