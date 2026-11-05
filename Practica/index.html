@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" id="formulario">
+        <fieldset>
+            <legend>Registro</legend>
+            <label for="name">Nombre: </label>
+            <input type="text" id="name">
+            <p id="VistaNombre"></p>
+            <br>
+            <label for="edad">Edad: </label>
+            <input type="number" id="edad">
+            <p id="EstadoEdad"></p>
+            <br>
+            <br>
+            <label for="selector">Modalidad</label>
+            <select name="" id="selector">
+                <option value="">Seleccione una opcion</option>
+                <option value="presencial">Presencial</option>
+                <option value="virtual">Virtual</option>
+                <option value="hibrida">Hibrida</option>
+            </select>
+            <p id = "infoModalidad"></p>
+            <br>
+            <br>
+            <label for="correo">Correo: </label>
+            <input type="email" id="correo">
+            <p id = "validarCorreo"></p>
+            <br>
+            <label for="niveles">Nivel</label>
+            <select name="" id="niveles">
+                <option value="">Seleccione un opcion</option>
+                <option value="pricipiante">Pricipiante</option>
+                <option value="intermedio">Intermedio</option>
+                <option value="avanzado">Avanzado</option>
+            </select>
+            <p id = "ValorNiveles"></p>
+            <button type="submit" id="boton">Enviar</button>
+            <p id = "vboton"></p>
+        </fieldset>
+        
+    </form>
+    
+    <script src="js/app.js"></script>
+</body>
+</html>
